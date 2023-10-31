@@ -1,1 +1,45 @@
 # HTML_homework
+
+<!-- Write your code below -->
+<!DOCTYPE html>
+
+<head>
+  
+    <title>Document</title>
+</head>
+<body>
+   <p>Preceding Text</p>
+    <ol>
+        <li>List Item 1</li>
+        <ul>
+            <li>a. Nested item 1.1</li>
+            <li>b. Nested Item 1.2</li>
+        </ul>
+        <li>List Item 2</li>
+             <ol>
+                <li>Nested item 2.1</li>
+                <li>Nested Item 2.2</li>
+            
+        <ul>
+            <li>Nested item 2.2.1</li>
+            <li>Nested Item 2.2.2</li>
+            <ul>
+            <li>Nested item 2.2.2.1</li>
+            <li>Nested Item 2.2.2.2</li>
+        </ul>
+            <li>Nested Item 2.2.3</li>
+        </ul>
+        <li> Nested Item 2.3</li>
+        </ol>
+        <li>List Item 3</li>
+        <ul>
+            <li>Nested Item 3.1</li>
+            <li>Nested Item 3.1</li>
+            <li>Nested Item 3.1</li>
+        </ul>
+    </ol>
+
+
+
+</body>
+</html>
