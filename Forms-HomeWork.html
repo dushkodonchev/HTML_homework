@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Work - Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <h2>Shopping Form</h2>
+      <fieldset>
+        <legend>Personal Information</legend>
+      <label for="text">First Name:</label>
+      <br />
+      <input type="text" name="text" id="text" placeholder="ex. James" required/>
+      <br />
+      <br>
+
+      <label for="text">Last Name:</label>
+      <br />
+      
+      <input type="text" name="text" id="text" placeholder="ex. Jones" required/>
+
+      <br />
+      <br>
+
+      <label for="mail">Email:</label>
+      <br />
+      <input type="email" name="mail" id="mail" placeholder="example@yahoo.com" required/>
+
+      <br />
+      <br>
+
+      <label for="phoneNumber">Phone number:</label>
+      <br />
+      <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="+389223305" required />
+      </fieldset>
+
+      <br />
+      
+
+      <fieldset>
+        <legend>Delivery Address</legend>
+      <label for="Shipping-Address">Shipping Address:</label>
+      <br />
+
+      <textarea
+        name="Shipping-Address"
+        id="Shipping-Address"
+        cols="50"
+        rows="10"
+        placeholder="ex.
+2546 Oakwood Avenue City
+New York, New York
+"
+       required></textarea>
+
+       
+        <br>
+      <br />
+
+      <label for="Billing-Address">Billing Address:</label>
+      <br />
+      <textarea
+        name="Billing-Address"
+        id="Billing-Address"
+        cols="50"
+        rows="10"
+        placeholder="ex.
+2546 Oakwood Avenue City
+New York, New York"
+       required></textarea>
+
+      
+
+      <br />
+      <br>
+
+      <label for="delivery">Delivery Method:</label>
+      <br>
+      <select name="name" id="delivery" required >
+        <option value="" selected disabled>Please select a delivery method</option>
+        <option value="">Standard Delivery (4-7 business days)</option>
+        <option value="">Express Delivery (2-3 business days)</option>
+      </select>
+
+       </fieldset>
+
+      <br />
+      
+
+      <label for="gift">Gift Wrapping:</label>
+      <input type="checkbox" name="gift" id="gift" />
+      <br>
+      <br>
+
+      <label for="Gift-Message">Gift Message:</label>
+      <br>
+     <textarea name="Gift-Message" id="Gift-Message" cols="50" rows="10"></textarea>
+
+      <br>
+      <br>
+        <fieldset>
+            <legend>Payment Information</legend>
+      <label for="payment">Payment Method:</label>
+      <br>
+     <select name="payment" id="payment" required>
+        <option value="" selected disabled>Please select your payment method</option>
+        <option value="Credit Card">Credit Card</option>
+        <option value="Debit Card">Debit Card</option>
+        <option value="Paypal">Paypal</option>
+     </select>
+     <br />
+     <br>
+     <label for="card-number">Credit Card Number:</label>
+     
+     <br>
+     <input type="number" name="card-number" id="card-number" minlength="1" maxlength="16" placeholder="ex. 1234 5678 9012 3456" required>
+
+     <br />   
+     <br />
+
+     <label for="date">Expiration Date:</label>
+     <br>
+     <input type="date" name="date" id="date" placeholder="dd.mm.yyyy" required />
+     <br>
+     <br>
+     <label for="number">CVC:</label>
+     <br>
+     <input type="number" name="cvc" id="cvc" maxlength="3" required>
+
+     
+
+     <br><br>
+
+     <label for="save-payment-method">Save Payment Method for Future Purchases:</label>
+     <input type="checkbox" name="save-payment-method" id="save-payment-method" />
+
+     <br>
+
+     </fieldset>
+     <br>
+
+     
+     <label for="contact">Preferred Contact Method for Order Updates:</label>
+     <br>
+
+     <input type="radio" name="contact" id="contact" required >
+     <label for="email">Email</label>
+
+     <br>
+     <br>
+
+      <input type="radio" name="contact" id="contact" required/>    
+     <label for="phone">Phone</label>
+     <br>
+     <br>
+
+     <input type="radio" name="contact" id="contact"  required>
+     <label for="email-and-phone">Both Email and Phone</label>
+     <br>
+     <br>
+
+     <label for="order-note">Order Notes:</label>
+
+    
+     <br>
+
+     <textarea name="order-note" id="order-note" cols="50" rows="10"></textarea>
+
+     <br>
+
+
+     <button type="reset">Cancel</button>
+     <button type="submit">Submit Order</button>
+
+
+
+
+
+
+
+
+
+
+    </form>
+  </body>
+</html>
