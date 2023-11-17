@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@100;400;900&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Ubuntu:wght@300&display=swap');
+
+*{
+     font-family: sans-serif;
+     font-weight: 400;
+     background-color: #F2FFE9;
+     text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+h3{
+     margin-left:50px;
+     text-decoration: underline;
+}
+.topics{
+    margin-left:40px;
+}
+
+h1, footer{
+ background-color: #A6CF98;
+}
+
+.nav-bar{
+ text-align: center;
+ padding: 5px;
+ margin: 20px;
+ word-spacing: 200px;
+}
+
+#subheading{
+    color: blue;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+}
+
+
+a:visited{
+    color: purple;
+}
+
+/* Nav-bar links */
+.nav-bar > a:hover{
+    color: yellow;
+}
+
+/* Aside links */
+ .topics > a:hover{
+    color:red;
+}
+
+a:focus{
+    color: brown;
+}
+ .topics  a:active {
+  color: green;
+}
+
+ p{
+    margin: 50px;
+    text-align: justify;
+ }
+
+#bold-text{
+    font-weight: 700;
+}
+
+#italic-text{
+    font-style: italic;
+}
+
+#span-1, #span-2, #span-3{
+height: 70px;
+width: 150px;
+border: 2px solid red;
+background-color: black;
+color: white;
+}
+
+footer {
+text-align: center;
+padding: 3px;
+text-align: center;
+margin-left: 50px;
+}
