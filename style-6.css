@@ -5,6 +5,7 @@
      font-weight: 400;
      background-color: #F2FFE9;
      text-decoration: none;
+   
 }
 
 h1{
@@ -18,7 +19,7 @@ h3{
     margin-left:40px;
 }
 
-h1, footer{
+h1{
  background-color: #A6CF98;
 }
 
@@ -72,17 +73,36 @@ a:focus{
     font-style: italic;
 }
 
-#span-1, #span-2, #span-3{
-height: 70px;
-width: 150px;
-border: 2px solid red;
-background-color: black;
-color: white;
+.span-1{
+    box-sizing: border-box;
+    height: 70px;
+    width: 150px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+.span-2{
+ box-sizing: border-box;
+    height: 70px;
+    width: 150px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+.span-3{
+    box-sizing: border-box;
+    height: 70px;
+    width: 150px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
 }
 
-footer {
-text-align: center;
-padding: 3px;
-text-align: center;
-margin-left: 50px;
+.border-box{
+    text-align: center;
 }
+
+
+
+/* * Add three spans in the footer, each should have 70px height and 150px width. Spans should not touch each other (add some space between), and should have red border, black background and white
+ */
